@@ -8,7 +8,7 @@
 import XCTest
 @testable import NetworkUtils
 
-class HttpClientDecodableExtensionTests: XCTestCase {
+class HttpClientCodableExtensionTests: XCTestCase {
     func testGetFromJsonWithRequestSuccess() async throws {
         let dummy = Dummy()
         let expectedData = try JSONEncoder().encode(dummy)
