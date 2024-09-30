@@ -15,7 +15,7 @@ extension HttpClient {
                 return
             }
             
-            guard let data = data else {
+            guard let data else {
                 completion(.failure(NetworkError.unableToComplete))
                 return
             }
